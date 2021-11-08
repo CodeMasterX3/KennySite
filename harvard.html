@@ -11,6 +11,12 @@
 	<h1 class=titleFont>KennySite</h1>
 	<a href="index.html">Home</a> | <a href="harvard.html">Havard Reference Generator</a>
 	</header>
-	<p id="change" class="normalFont">This is the Harvard reference generator. For now it is a JavaScript testbed.</p>
-	<button type="button" onclick='document.getElementById("change").innerHTML = "This is a new sentence."'>Change</button>
-	<button type="button" onclick='document.getElementById("change").innerHTML = "This is the Harvard reference generator. For now it is a JavaScript testbed."'>Change Back</button>
+	<p class="normalFont">This is the Harvard reference generator. For now it is a JavaScript testbed.</p>
+	<br><br>
+
+	<form>
+		<label for="author">Author (Or name of website):</label>
+		<input type="text" id="author" name="author"><br>
+		<label for="yearPublished">Year of publication (or n.d.)</label>
+		<input type="text" id="yearPublished" name="yearPublished"><br>
+	</form>
