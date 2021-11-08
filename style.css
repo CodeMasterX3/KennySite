@@ -1,0 +1,16 @@
+h1 {
+	color: black;
+	text-align: center;
+	font-family: arial;
+}
+
+p {
+	color: black;
+	font-family: arial;
+}
+
+p.normalfont {
+	color: black;
+	font-family: arial
+	font-size: 16pt
+}
