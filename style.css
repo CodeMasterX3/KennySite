@@ -1,12 +1,7 @@
-h1 {
-	color: black;
-	text-align: center;
-	font-family: arial;
-}
-
-p {
+h1.titleFont {
 	color: black;
 	font-family: arial;
+	font-size: 32pt
 }
 
 p.normalfont {
