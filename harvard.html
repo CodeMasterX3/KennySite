@@ -11,4 +11,6 @@
 	<h1 class=titleFont>KennySite</h1>
 	<a href="index.html">Home</a> | <a href="harvard.html">Havard Reference Generator</a>
 	</header>
-	<p class="normalFont"> Welcome to KennySite. I have no idea why I called this site KennySite, but at least my website has a name. I created KennySite as a bit of a fun HTML coding project, with things like links, pictures, and maybe even videos.<br><br>The first few pages on this site will be JavaScript testbed pages, and you can find them (at least for now) at the links section on the header. New text.</p>
+	<p id="change" class="normalFont">This is the Harvard reference generator. For now it is a JavaScript testbed.</p>
+	<button type="button" onclick='document.getElementById("change").innerHTML = "This is a new sentence."'>Change</button>
+	<button type="button" onclick='document.getElementById("change").innerHTML = "This is the Harvard reference generator. For now it is a JavaScript testbed."'>Change Back</button>
